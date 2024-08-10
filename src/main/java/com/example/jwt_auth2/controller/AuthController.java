@@ -2,12 +2,12 @@ package com.example.jwt_auth2.controller;
 
 
 import com.example.jwt_auth2.config.JwtTokenUtil;
+import com.example.jwt_auth2.dto.AuthResponse;
 import com.example.jwt_auth2.dto.LoginRequest;
 import com.example.jwt_auth2.model.User;
 import com.example.jwt_auth2.repository.UserRepository;
 import com.example.jwt_auth2.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
